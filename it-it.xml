@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [<!ENTITY appname "must echo through">]>
+<resources custom-attribute="must-be-present-in-translated-file">
+    <string name="key-1">La volpe   marrone [[quick]] saltò sul cane pigro.</string>
+    <string name="key-2">Non sembri un cavallo di regalo \n In bocca</string>
+    <!-- Provide context for linguists as comments in the source file -->
+    <string name="account_activation">Attiva il tuo account ora!</string>
+    <plurals name="key-plural-1">
+        <item quantity="one">Ti ho già detto il tempo %d</item>
+        <item quantity="other">Ti ho già detto il tempo %d</item>
+    </plurals>
+    <string-array name="day_of_week">
+        <!-- First day of the week -->        <item>Il lunedì è il primo giorno</item>
+        <item>il riposo</item>
+    </string-array>
+    <string name="key-0"></string>
+    <string name="newKey">Questa è una nuova chiave!</string>
+</resources>
